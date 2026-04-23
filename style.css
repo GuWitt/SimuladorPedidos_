@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+
+    /* fonte do texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+/* Container central da página */
+.container{
+    max-width: 110px; /* largura máxima */
+    margin: 30px auto; /* centraliza */
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color: darkorange;
+}
+.subtitulo{
+    color: darkorange;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+/* area dos cards */
+.cards{
+    display: flex; /* coloca lado a lado*/
+    flex-direction: row;
+    flex-wrap: wrap; /* quebra a linha*/
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width: 220px;
+    background-color: darkorange;
+    border-radius: 16px; /* arredonda as bordas */
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0 , 0.12);
+    cursor: pointer;
+    height: 500px;
+   text-align: center;
+   box-shadow: 15px 12px 12px rgb(136, 103, 41);
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+/* Checkbox dentro card*/
+.card input{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button{
+    cursor: pointer;
+    background-color: darkorange;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 30px;
+}
+.logo{
+    justify-content: center;
+    text-align: center;
+    image-resolution: 20px;
+    
+}
