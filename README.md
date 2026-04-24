@@ -3,7 +3,8 @@
 projeto utilizando **HTML, CSS E JavaScript**. O usuário escolhe itens e o sistema calcula o total com desconto e entrega.
 
 ---
-<img width="1889" height="979" alt="image" src="https://github.com/user-attachments/assets/42139e3b-456e-445d-94e4-71362f310372" />
+<img width="1919" height="927" alt="image" src="https://github.com/user-attachments/assets/89fbff21-e447-40a0-b413-77891fe95bb5" />
+
 
 ---
 ## ✅ Objetivo
